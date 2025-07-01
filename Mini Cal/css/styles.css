@@ -1,0 +1,84 @@
+.container_supremo {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    min-height: 100vh; 
+}
+
+.container_inputs {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.container_inputs input {
+    width: 200px; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container_buttons {
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+#somar {
+    background-color: #4CAF50;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#subtrair {
+    background-color: #f44336;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#dividir {
+    background-color: #2196F3;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#multiplicar {
+    background-color: #FFC107;
+    color: #333;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#resultado {
+    background-color: #FFC107;
+    color: #333;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#texto_principal {
+    text-align: center;
+    color: #4CAF50;
+}
