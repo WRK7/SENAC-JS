@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Validado</title>
+    <script src="../static/js/script.js" defer></script>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+
+<body>
+    <div class="div_center">
+        <h1 id="title">Projeto básico de validações</h1>
+        <div class="inputs_style">
+            <div>
+                <input type="text" placeholder="Escreva seu nome completo" class="input required"
+                    oninput="nameValidate()">
+                <span class="span-required">O nome deve ter no mínimo 3 caracteres</span>
+            </div>
+            <div>
+                <input type="number" placeholder="Coloque seu CEP" class="input required" oninput="cepValidate()">
+                <span class="span-required">O CEP deve conter 8 dígitos</span>
+            </div>
+            <div>
+                <input type="text" placeholder="Coloque seu e-mail" class="input required" oninput="emailValidate()">
+                <span class="span-required">Este E-mail é invalido, só aceitamos domínio Yahoo</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Coloque sua senha" class="input required"
+                    oninput="passwordValidate1()">
+                <span class="span-required">A senha deve ter no mínimo 8 dígitos</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Coloque sua senha" class="input required"
+                    oninput="passwordValidate2()">
+                <span class="span-required">As senhas devem ser iguais</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

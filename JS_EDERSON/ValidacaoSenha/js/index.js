@@ -1,5 +1,6 @@
 const inputs = document.querySelectorAll('.required');
 const spans = document.querySelectorAll('.span-required');
+
 function passwordValidate(){
     if (inputs[0].value != inputs[1].value && inputs[0].value.length <8 || inputs[1].value.length <8 ) {
         setError(1);
